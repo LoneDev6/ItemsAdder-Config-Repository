@@ -1,5 +1,8 @@
 info:
   namespace: various
+  description: 
+  - This is an Enchanting Table yml code for a Model Enchanting Table that i use along side a plugin i use named Advanced Enchantments
+  - if you use a different custom enchantment plugin then just edit the command line
 items:
   enchanters_table:
     display_name: Enchanters Table

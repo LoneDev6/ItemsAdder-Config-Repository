@@ -1,22 +1,5 @@
 info:
-  namespace: customitems
-recipes:
-  crafting_table:
-    enchanters_table:
-      permission: customitems.enchanters_table
-      enabled: true
-      pattern:
-      - BIB
-      - SLS
-      - SSS
-      ingredients:
-        L: LAPIS_BLOCK
-        B: BLACK_WOOL
-        I: LIGHT_BLUE_WOOL
-        S: STONE
-      result:
-        item: customitems:enchanters_table
-        amount: 1
+  namespace: various
 items:
   enchanters_table:
     display_name: Enchanters Table
@@ -37,3 +20,20 @@ items:
             first_cmd:
               as_console: false
               command: 'enchanter'
+recipes:
+  crafting_table:
+    enchanters_table:
+      permission: various.enchanters_table
+      enabled: true
+      pattern:
+      - BIB
+      - SLS
+      - SSS
+      ingredients:
+        L: LAPIS_BLOCK
+        B: BLACK_WOOL
+        I: LIGHT_BLUE_WOOL
+        S: STONE
+      result:
+        item: various:enchanters_table
+        amount: 1
